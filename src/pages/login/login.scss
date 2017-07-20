@@ -1,0 +1,43 @@
+page-login {
+    ion-slide {
+        height: 100vh;
+    }
+    ion-item {
+        background-color: transparent !important;
+        color: white !important;
+        margin-bottom: 10px !important;
+        padding-left: 10px !important;
+        font-size: 0.9em;
+    }
+    // 安卓的标题居中
+    .toolbar-title-md {
+        text-align: center;
+    }
+    .scroll-content {
+        margin-top: 0 !important;
+    }
+    // 背景滑块
+    .slide-background {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-color: transparent;
+    }
+    // 登录内容块
+    .login-container {
+        width: 100%;
+        color: white;
+        position: absolute;
+        top: 0;
+        text-align: center;
+        padding: 10vw;
+        margin: 0 auto;
+        z-index: 2;
+    }
+    .logo {
+        width: auto;
+        height: auto;
+        padding-top: 9vh;
+        margin-bottom: 15vh;
+    }
+}
